@@ -1,5 +1,7 @@
 package main
 
+// 10
+
 /*
 Type Declarations
 Type Declarations adalah kemampuan membuat ulang tipe data baru dari tipe data yang sudah ada

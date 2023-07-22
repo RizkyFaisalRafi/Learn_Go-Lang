@@ -1,5 +1,7 @@
 package main
 
+// 4
+
 /*
 2 Jenis Tipe Data Number yaitu Integer(Bilangan Bulat) dan Floating Point (Desimal)
 

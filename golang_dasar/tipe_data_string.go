@@ -1,5 +1,7 @@
 package main
 
+// 6
+
 /*
 Tipe Data String
 String adalah tipe data kumpulan karakter

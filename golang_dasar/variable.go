@@ -1,5 +1,7 @@
 package main
 
+// 7
+
 /*
 Variable
 Variable adalah tempat untuk menyimpan data
