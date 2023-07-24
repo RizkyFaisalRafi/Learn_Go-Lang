@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/golang_dasar.iml" filepath="$PROJECT_DIR$/.idea/golang_dasar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Learn_Go-Lang.iml" filepath="$PROJECT_DIR$/.idea/Learn_Go-Lang.iml" />
     </modules>
   </component>
 </project>
