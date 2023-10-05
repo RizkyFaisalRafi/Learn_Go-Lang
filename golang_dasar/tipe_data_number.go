@@ -26,7 +26,16 @@ Penggunaan tipe data di golang itu Case Sensitive
 import "fmt"
 
 func main() {
+	var nama string // Deklarasi variabel "nama" dengan tipe data string
+	nama = "John"   // Inisialisasi variabel "nama" dengan nilai "John"
+
+	var usia int // Deklarasi variabel "usia" dengan tipe data int
+	usia = 30    // Inisialisasi variabel "usia" dengan nilai 30
+
+	var city string = "Tangerang"
+
 	fmt.Println("Satu = ", 1)
 	fmt.Println("Dua = ", 1)
 	fmt.Println("Tiga Koma Lima = ", 3.5)
+	fmt.Printf("Nama: %s, Usia: %d tahun, Kota: %s\n", nama, usia, city)
 }
