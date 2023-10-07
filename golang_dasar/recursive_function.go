@@ -17,13 +17,13 @@ func factorialForLoop(value int) int {
 	result := 1
 
 	for i := value; i > 0; i-- {
-		result *= i
+		result *= i // result = result * i
 	}
 	return result
 }
 
 func factorialRecursive(value int) int {
-	if value == 1 {
+	if value == 1 { // Kondisi berhenti
 		return 1
 	} else {
 		return value * factorialRecursive(value-1)
@@ -31,6 +31,6 @@ func factorialRecursive(value int) int {
 }
 
 func main() {
-	fmt.Println(factorialForLoop(10))
-	fmt.Println(factorialRecursive(10))
+	fmt.Println(factorialForLoop(5))   // 5 * 4 * 3 * 2 * 1 = 120
+	fmt.Println(factorialRecursive(5)) // 5 * 4 * 3 * 2 * 1 = 120
 }

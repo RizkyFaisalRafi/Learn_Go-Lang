@@ -29,10 +29,10 @@ func sumAll(numbers ...int) int {
 func main() {
 	total := sumAll(10, 20, 30, 40, 50)
 	fmt.Println(total)
-
-	// Slice Parameter
 	total2 := sumAll(10, 10, 10, 10)
 	fmt.Println(total2)
+
+	// Slice Parameter
 	numbers := []int{10, 10, 10, 10}
 	total2 = sumAll(numbers...)
 	fmt.Println(total2)
